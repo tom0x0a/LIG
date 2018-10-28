@@ -1,0 +1,180 @@
+@font-face { font-family: 'Yugothib'; src: url("fonts/yugothib/yugothib.ttf") format("truetype"); }
+
+@font-face { font-family: 'Yugothil'; src: url("fonts/yugothil/yugothil.ttf") format("truetype"); }
+
+/*Fonts*/
+*, *:before, *:after { -webkit-box-sizing: border-box; box-sizing: border-box; -moz-box-sizing: border-box; image-rendering: -webkit-optimize-contrast; }
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; -webkit-text-size-adjust: 100%; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+
+body { line-height: 1; }
+
+ul { list-style: none; }
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+button, html input[type=button], input[type=reset], input[type=submit] { -webkit-appearance: button; cursor: pointer; }
+
+input, textarea, select { -webkit-appearance: none; }
+
+/* end reset */
+a { text-decoration: none; }
+
+img { max-width: 100%; vertical-align: top; image-rendering: -webkit-optimize-contrast; }
+
+textarea { resize: vertical; }
+
+iframe { border: none; width: 100%; }
+
+ul, h1, h2, h3, h4 { margin: 0; padding: 0; list-style: none; }
+
+strong, b { font-weight: bold; }
+
+em, i { font-style: italic; }
+
+input[type="submit"] { cursor: pointer; }
+
+a[href^="tel:"] { color: inherit !important; text-decoration: none; }
+
+/* Forms Presets */
+::-webkit-input-placeholder { opacity: 1; color: inherit; }
+
+::-moz-placeholder { opacity: 1; color: inherit; }
+
+:-ms-input-placeholder { opacity: 1; color: inherit; }
+
+:-moz-placeholder { opacity: 1; color: inherit; }
+
+/*end preset*/
+.wrapper { max-width: 1080px; width: 100%; margin: 0 auto; position: relative; }
+
+body { font-family: "Yugothil"; line-height: 100%; font-weight: bold; overflow-x: hidden; }
+
+.clearfix:after { content: ''; clear: both; display: block; }
+
+header { text-align: center; border-top: 4px solid #E8BA31; padding: 15px 0 19px; }
+
+#banner { position: relative; font-family: "Yugothib"; font-size: 40px; }
+
+.slider { width: 1400px; position: relative; }
+
+.slideshow-container { max-width: 1400px; position: relative; left: -161px; }
+
+.slide_control { position: absolute; left: 0; right: 0; top: 43%; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); }
+
+.slide_control .prev, .slide_control .next { color: #fff; font-size: 60px; position: absolute; cursor: pointer; font-weight: lighter; line-height: 100%; }
+
+.slide_control .next { right: 0; }
+
+.slide_control .prev:hover, .slide_control .next:hover { color: #E8BA31; }
+
+.bnr_text { position: absolute; top: 52%; left: 0; right: 0; text-align: center; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); color: #fff; }
+
+.bnr_text h1 { font-size: 58px; font-weight: bold; letter-spacing: 5px; line-height: 100%; margin: 0 0 42px; }
+
+.bnr_text p { font-size: 13px; letter-spacing: 5px; margin: 0 0 9px; }
+
+.nav_dots { position: absolute; bottom: 18px; left: 0; right: 0; text-align: center; }
+
+.nav_dots .dot { cursor: pointer; height: 15px; width: 15px; margin: 0 2px; background-color: #fff; border-radius: 50%; display: inline-block; }
+
+.nav_dots .active, .nav_dots .dot:hover { background-color: #E8BA31; }
+
+.fade { -webkit-animation-name: fade; -webkit-animation-duration: 1.5s; animation-name: fade; animation-duration: 1.5s; }
+
+@-webkit-keyframes fade { from { opacity: .4; }
+  to { opacity: 1; } }
+
+@keyframes fade { from { opacity: .4; }
+  to { opacity: 1; } }
+
+#main_area { position: relative; }
+
+.main_section { min-height: 1752px; padding: 43px 0 0; }
+
+main { float: left; width: 681px; }
+
+main ul li { display: block; position: relative; margin: 0 0 49px; }
+
+main ul li a { display: block; color: #000; padding: 0 0 0 220px; }
+
+main ul li a:after { content: ''; position: absolute; left: 0; top: 0; width: 206px; height: 116px; background: url(../images/serv_img.jpg) no-repeat center top; }
+
+main ul li a:hover:after { background-position: center bottom; }
+
+main ul li a span { font-size: 16px; letter-spacing: 1.6px; line-height: 135%; font-weight: bold; display: block; margin: 0 0 9px; }
+
+main ul li a small { display: block; font-size: 11px; line-height: 150%; font-weight: lighter; letter-spacing: 1.3px; color: #232323; }
+
+main ul li a:hover span { color: #E8BA31; }
+
+main ul li:last-child { margin-bottom: 0; }
+
+.date { display: block; color: #AEAEAE; font-family: arial; font-weight: lighter; font-size: 12px; line-height: 100%; margin: 0 0 11px; }
+
+.main_btn { display: block; text-align: center; margin: 56px 0 0; }
+
+.long_btn { display: inline-block; width: 405px; color: #fff; position: relative; background: #333333; text-align: center; margin: 0 auto; font-family: arial; font-weight: lighter; font-size: 19px; line-height: 100%; padding: 10px 10px; }
+
+.long_btn:before { content: '\003e'; position: absolute; top: 10px; right: 12px; font-size: 30px; font-weight: lighter; }
+
+.long_btn:hover { background: #E8BA31; }
+
+aside { float: right; background: #EFEFEF; width: 339px; text-align: center; padding: 19px; }
+
+aside .aside_boxtop { background: #fff; display: block; margin: 0 0 40px; }
+
+aside .aside_boxtop a { display: block; color: #000; font-family: arial; font-weight: lighter; font-size: 16px; line-height: 100%; padding: 142px 0; }
+
+aside .aside_boxtop a:hover { color: #E8BA31; }
+
+.aside_serv_list { display: block; margin: 0 0 38px; }
+
+.aside_serv_list h3 { font-family: arial; font-size: 25px; border-bottom: 3px solid #000; line-height: 100%; font-weight: lighter; letter-spacing: 2px; padding-bottom: 7px; margin: 0 0 19px; }
+
+.aside_serv_list ul li { text-align: left; position: relative; margin: 0 0 21px; }
+
+.aside_serv_list ul li a { display: block; color: #000; position: relative; padding: 0 0 0 120px; font-size: 11px; letter-spacing: 2px; }
+
+.aside_serv_list ul li a:before { content: ''; position: absolute; top: 0; left: 0; width: 112px; height: 63px; background: url(../images/serv_img.jpg) no-repeat center top; background-size: cover; }
+
+.aside_serv_list ul li a .date { margin: 3px 0 0; letter-spacing: 0; }
+
+.aside_serv_list ul li a:hover { color: #E8BA31; }
+
+.aside_serv_list ul li a:hover:before { background-position: center bottom; }
+
+.aside_serv_list ul li a:hover .date { color: #AEAEAE; }
+
+.aside_serv_list ul li:last-child { margin-bottom: 0; }
+
+.aside_below a { display: block; color: #fff; background: #666666; padding: 39px 0; margin: 0 0 17px; font-family: arial; font-weight: lighter; letter-spacing: 1px; font-size: 15px; line-height: 100%; }
+
+.aside_below a:hover { background: #E8BA31; }
+
+.aside_below a:last-child { margin-bottom: 0; }
+
+.backto_top { position: absolute; right: 0; bottom: 17px; font-size: 35px; cursor: pointer; z-index: 3; color: #000; font-family: arial; }
+
+.backto_top:hover { color: #E8BA31; }
+
+footer { min-height: 46px; color: #fff; background: #000; padding: 15px 0 0; }
+
+.footer_nav { float: left; }
+
+.footer_nav ul li { display: inline-block; vertical-align: top; }
+
+.footer_nav ul li a { display: block; color: #fff; font-weight: lighter; font-size: 12px; line-height: 100%; letter-spacing: 1px; }
+
+.footer_nav ul li a:hover { color: #E8BA31; }
+
+.footer_nav ul li:first-child { margin-right: 15px; }
+
+.copyright { float: right; font-family: arial; font-size: 15px; line-height: 100%; }
